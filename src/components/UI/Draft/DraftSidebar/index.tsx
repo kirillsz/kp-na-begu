@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FileText, Plus, Search, X } from "lucide-react";
 import { Button } from "../../../common/Button";
-import { formatDate, type Proposal } from "../../../../lib/model";
+import { type Proposal } from "../../../../lib/model";
 import styles from "./style.module.css";
 import DraftSidebarCard from "../DraftSidebarCard";
 

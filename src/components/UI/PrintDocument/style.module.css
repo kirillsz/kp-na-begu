@@ -1,0 +1,12 @@
+.root {
+  width: 816px;
+  min-height: 1056px;
+  margin: 0 auto;
+  padding: 69px 64px 60px;
+  background: #fff;
+  box-shadow: 0 8px 30px #25354e1d;
+  color: #111;
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.15;
+}

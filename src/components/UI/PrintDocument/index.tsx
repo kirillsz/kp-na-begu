@@ -23,8 +23,8 @@ export function PrintDocument({ proposal }: { proposal: Proposal }) {
           <div>Web: teh-ohot.ru</div>
         </div>
         <img
-          src="/assets/reference-1.jpg"
-          alt="Технологии охоты"
+          src={`${import.meta.env.BASE_URL}assets/reference-1.jpg`}
+          alt="Логотип компании «Технологии охоты»"
           height={120}
         />
       </header>
@@ -148,7 +148,10 @@ export function PrintDocument({ proposal }: { proposal: Proposal }) {
         <div className="signature">
           Руководитель компании «Технологии Охоты»{" "}
           <span>_____________ / Акстын А.В./</span>
-          <img src="/assets/reference-2.jpg" alt="Печать и подпись" />
+          <img
+            src={`${import.meta.env.BASE_URL}assets/reference-2.jpg`}
+            alt="Печать и подпись ИП Акстын А.В"
+          />
         </div>
       </div>
     </article>
